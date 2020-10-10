@@ -5,6 +5,7 @@ body {
     background-repeat: no-repeat;
     font-family: 'Indie Flower', cursive;
     font-size: x-large;
+    min-height: 100vh;
 }
 header {
     margin: auto auto auto auto;
@@ -27,6 +28,7 @@ header div {
     margin-left: 4%;
     font-family: 'Indie Flower', cursive;
     font-size: x-large;
+    margin-top: 1%;
 }
 .btn-dlt {
     margin-left: 10%;
