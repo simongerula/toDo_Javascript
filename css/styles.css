@@ -1,0 +1,52 @@
+body {
+    background-image: url(http://images.freecreatives.com/wp-content/uploads/2016/02/Aged-Wood-Background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Indie Flower', cursive;
+    font-size: x-large;
+}
+header {
+    margin: auto auto auto auto;
+    width: 80%;
+    background-image: url(/assets/img/top_bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    padding-top: 0.2rem;
+    padding-bottom: 7rem;
+}
+header div {
+    padding-top: 3rem;
+}
+#btnAdd {
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    margin-left: 4%;
+    font-family: 'Indie Flower', cursive;
+    font-size: x-large;
+}
+.btn-dlt {
+    margin-left: 10%;
+}
+.taskInput {
+    font-family: 'Indie Flower', cursive;
+    font-size: x-large;
+}
+.taskItem {
+    margin: 3% auto auto auto;
+    list-style: none;
+    width: 80%;
+    background-image: url(/assets/img/item_bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    padding-top: 9rem;
+    padding-bottom: 9rem;
+}
+p { 
+    display: inline;
+}
