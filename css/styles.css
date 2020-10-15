@@ -73,3 +73,15 @@ body {
     word-break: break-all;
     hyphens: auto;
 }
+
+@media (max-width: 500px) {
+    #btn-add {
+        margin-top: 15px;
+    }
+    .taskItem p {
+        padding: 5px 10px;
+    }
+    .taskItem button {
+        margin: auto 8px;
+    }
+}
