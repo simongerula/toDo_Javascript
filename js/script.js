@@ -10,7 +10,7 @@ function saveTaks() {
 
         // Construyo un objeto, por si despues se requiere almacenar mas parametros
         const task = {
-            taskInput
+            taskInput   // esto es igual a taskInput : taskInput
         };
 
         
