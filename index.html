@@ -4,22 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>To-Do List JavaScript</title>
+    <!-- CUSTOM CSS -->
     <link rel="stylesheet" href="css/styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <!-- GOOGLE FONTS -->
+<link href="https://fonts.googleapis.com/css2?family=Red+Rose:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <h1>To-Do List JavaScript</h1>
-        <div>
-        <input type="text" class="taskInput" placeholder="Add new task..." maxlength="70">
-        <button id="btnAdd">ADD</button>   
-        </div>   
-    </header>
-    <main>
-    <div class="taskList">
 
-    </div>            
-    </main>
+    <div class="container">
+        <header class="header">
+            <h1>To-Do List JavaScript</h1>
+            <div class="header-input">
+            <input type="text" class="taskInput" placeholder="Add new task...">
+            <button id="btn-add">ADD</button>   
+            </div>   
+        </header>
+        <main class="main">
+            <div class="taskList">
+            </div>
+        </main>
+    </div>
+
+    <!-- CUSTOM JS -->
     <script src="js/script.js"></script>
 </body>
 </html>

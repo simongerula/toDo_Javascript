@@ -1,5 +1,5 @@
 // Escucho el click del boton ADD
-document.querySelector('#btnAdd').addEventListener('click', saveTaks);
+document.querySelector('#btn-add').addEventListener('click', saveTaks);
 
 // Funcion para guardar las tareas en LocalStorage
 function saveTaks() {
